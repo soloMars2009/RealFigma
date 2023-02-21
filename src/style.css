@@ -1,0 +1,388 @@
+.ImgClass {
+    width: 100%;
+    height: 100px;
+}
+
+.ms:hover {
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 50px;
+    width: 100%;
+    height: 54px;
+    /* main */
+    background: #FF2E51;
+    border-radius: 50px;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;transition: 0.5s;
+}
+
+.imgStyle {
+    padding-top: 50px !important;
+    padding-left: 200px;
+    padding-right: 50px;
+    color: white;
+    background-image: url("./images/3.png");
+    width: 100%;
+    /* height: 500px; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 20px;
+}
+
+.buttomStyl {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 60px;
+    gap: 10px;
+    /* width: 259px; */
+    /* height: 62px; */
+    background: #FF2E51;
+    border-radius: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    border: none;
+}
+
+
+
+
+
+.color {
+    background-color: #e9eaef;
+}
+
+.imgClass {
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+.card {
+    background: radial-gradient(49.88% 49.88% at 22.29% 100%, rgba(207, 213, 229, 0.15) 0%, rgba(207, 213, 229, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , radial-gradient(80.86% 83.87% at 0% 0%, rgba(255, 220, 141, 0.08) 0%, rgba(255, 220, 141, 0) 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #FFFEFC;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+}
+
+
+
+
+
+.mss:hover {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    height: 30px;
+    background: #FF2E51;
+    border-radius: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.mss {
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding: 15px 30px;
+    width: 186px;
+    height: 52px;
+    background: #FFFEFC;
+    border: 2px solid #EDEDF2;
+    border-radius: 50px;
+}
+
+
+
+
+.BottomStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 10px;
+    gap: 10px;
+
+    width: 140px;
+    height: 52px;
+
+    /* main */
+
+    background: #FF2E51;
+    border-radius: 50px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    border: none;
+}
+
+
+
+
+
+
+
+.ho:hover {
+    opacity: 0.4;
+}
+
+
+.textFont {
+    font-size: 1vw;
+}
+
+/* .divStyl{ */
+/* width: 100%; */
+/* background-color: #f8f4f1;
+    border-radius: 10px;
+    padding-top: 80px; */
+/* } */
+
+
+
+.divStyl {
+    width: 100%;
+    background-color: #f8f4f1;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+
+
+
+.FInput {
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 25px;
+    gap: 10px;
+
+    width: 100%;
+    height: 62px;
+
+    /* bg2 */
+
+    background: #FFFEFC;
+    /* sep */
+
+    border: 2px solid #EDEDF2;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+
+.Fd{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 50px;
+gap: 10px;
+
+width: 40%;
+height: 62px;
+
+/* hover */
+
+background: #FA052E;
+/* hover */
+
+box-shadow: 0px 15px 20px -15px #FF0D35;
+border-radius: 50px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+border: none;
+margin-top: 30px;
+}
+
+
+
+
+
+.hg{
+    
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+isolation: isolate;
+
+width: 470px;
+height: 461px;
+
+background: radial-gradient(99.36% 102.39% at 100% 76.24%, rgba(211, 229, 207, 0.08) 0%, rgba(211, 229, 207, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, radial-gradient(68.66% 43.09% at 0% 100%, rgba(207, 213, 229, 0.15) 0%, rgba(207, 213, 229, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */, #FFFEFC;
+/* white */
+
+border: 2px solid #FFFFFF;
+border-radius: 30px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin-left: 50px;
+}
+
+
+
+.d{
+    background-color: #eeeaef;
+}
+
+
+
+.boSty{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 15px 30px;
+gap: 10px;
+
+width: 268px;
+height: 52px;
+
+/* main */
+
+background: #FF2E51;
+border-radius: 50px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+border: none;
+}
+
+/*  */
+
+.s{
+    
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 15px 30px;
+gap: 10px;
+
+width: 294px;
+height: 52px;
+
+/* bg2 */
+
+background: #FFFEFC;
+/* sep */
+
+border: 2px solid #EDEDF2;
+border-radius: 50px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+
+
+
+.sa{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 20px 25px;
+gap: 10px;
+
+width: 360px;
+height: 62px;
+
+/* bg2 */
+
+background: #FFFEFC;
+/* sep */
+
+border: 2px solid #EDEDF2;
+border-radius: 50px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+
+
+
+
+.ds{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 60px;
+gap: 10px;
+
+width: 360px;
+height: 62px;
+
+/* main */
+
+background: #FF2E51;
+border-radius: 50px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 4;
+align-self: stretch;
+flex-grow: 0;
+border:  none;
+}
